@@ -1,19 +1,26 @@
-.btn,
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  padding: 0.75em 1em;
-  background-color: #793284;
-  background-image: linear-gradient(to bottom, #793284, #571062);
-  border-radius: 6px;
-  box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-  color: #fff;
-  font-weight: bold;
+.media {
+  overflow: hidden;
 }
 
-.btn-alt,
-.btn-alt:link,
-.btn-alt:visited {
-	background-image: linear-gradient(to bottom, #5d8432, #3b6210);
-	background-color: #5d8432;
+.media-img {
+  float: left;
+  margin: 0 10px 0 0;
+
+}
+
+/* margin: top, right, bottom, left *clockwise*/
+
+.media-img-reversed{
+  float: right;
+  margin: 0 0 0 10px;
+
+}
+
+.media-body {
+  overflow: hidden;
+}
+
+.media-img-stacked {
+  float: none;
+  margin: 0;
 }
